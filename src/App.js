@@ -1,8 +1,8 @@
 import React, {componets} from 'react';
 import './App.css';
-import { button } from './components/button';
-import {input} from './components/input'
-import {clearbutton} from './components/clearbutton'
+import { Button } from './components/Button';
+import {Input} from './components/Input'
+import {Clearbutton} from './components/Clearbutton'
 
 class App extends componets() {
   constructor(props){
