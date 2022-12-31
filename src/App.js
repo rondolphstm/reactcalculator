@@ -16,12 +16,13 @@ addToInput = val =>{
   this.setState({input: this.state.input + val});
 }
 
-  render(){
+  render(){ // lines 19 and above is this issue i just cant figure out what exactly is wrong smh 
   return (
     <div className="app">
       <div className="calc-wrapper">
         <Input input={this.state.input}></Input>
         <div className='row'>
+          <div> wow </div>
           <Button handleClick={this.addToInput}>7</Button>
           <Button handleClick={this.addToInput}>8</Button>
           <Button handleClick={this.addToInput}>9</Button>
