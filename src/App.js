@@ -18,7 +18,7 @@ addToInput = val =>{
 
   render(){
   return (
-    <div className="App">
+    <div className="app">
       <div className="calc-wrapper">
         <Input input={this.state.input}></Input>
         <div className='row'>
@@ -46,7 +46,7 @@ addToInput = val =>{
           <Button handleClick={this.addToInput}>-</Button>
         </div>
         <div className='row'>
-          <Clearbutton handleclear={()=> this.setState({input: ""})}>Clear</Clearbutton>
+          <Clearbutton handleclear= {()=> this.setState({input: ""})} >Clear</Clearbutton>
         </div>
       </div>
     </div>
