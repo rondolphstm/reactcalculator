@@ -22,28 +22,28 @@ addToInput = val =>{
       <div className="calc-wrapper">
         <Input input={this.state.input}></Input>
         <div className='row'>
-          <button handleClick={this.addToInput}>7</button>
-          <button handleClick={this.addToInput}>8</button>
-          <button handleClick={this.addToInput}>9</button>
-          <button handleClick={this.addToInput}>/</button>
+          <Button handleClick={this.addToInput}>7</Button>
+          <Button handleClick={this.addToInput}>8</Button>
+          <Button handleClick={this.addToInput}>9</Button>
+          <Button handleClick={this.addToInput}>/</Button>
         </div>
         <div className='row'>
-          <button handleClick={this.addToInput}>4</button>
-          <button handleClick={this.addToInput}>5</button>
-          <button handleClick={this.addToInput}>6</button>
-          <button handleClick={this.addToInput}>x</button>
+          <Button handleClick={this.addToInput}>4</Button>
+          <Button handleClick={this.addToInput}>5</Button>
+          <Button handleClick={this.addToInput}>6</Button>
+          <Button handleClick={this.addToInput}>x</Button>
         </div>
         <div className='row'>
-          <button handleClick={this.addToInput}>1</button>
-          <button handleClick={this.addToInput}>2</button>
-          <button handleClick={this.addToInput}>3</button>
-          <button handleClick={this.addToInput}>+</button>
+          <Button handleClick={this.addToInput}>1</Button>
+          <Button handleClick={this.addToInput}>2</Button>
+          <Button handleClick={this.addToInput}>3</Button>
+          <Button handleClick={this.addToInput}>+</Button>
         </div>
         <div className='row'>
-          <button handleClick={this.addToInput}>.</button>
-          <button handleClick={this.addToInput}>0</button>
-          <button handleClick={this.addToInput}>=</button>
-          <button handleClick={this.addToInput}>-</button>
+          <Button handleClick={this.addToInput}>.</Button>
+          <Button handleClick={this.addToInput}>0</Button>
+          <Button handleClick={this.addToInput}>=</Button>
+          <Button handleClick={this.addToInput}>-</Button>
         </div>
         <div className='row'>
           <Clearbutton handleclear={()=> this.setState({input: ""})}>Clear</Clearbutton>
