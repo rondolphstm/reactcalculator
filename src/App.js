@@ -1,6 +1,6 @@
 import React, {componets} from 'react';
 import './App.css';
-import { Button } from './components/Button';
+import { Button } from './components/Button'
 import {Input} from './components/Input'
 import {Clearbutton} from './components/Clearbutton'
 
