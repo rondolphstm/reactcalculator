@@ -5,7 +5,7 @@ const isOperator = val => {
     return !isNaN(val) || val === "." || val === "=";
 }
 
-export const button = props => (
+export const Button = props => (
     <div className={`button-wrapper ${
         isOperator(props.childeren) ? null : "operator"
     }`} onClick={() => props.handleClick(props.children)}>
