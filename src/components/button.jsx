@@ -8,7 +8,9 @@ const isOperator = val => {
 export const Button = props => (
     <div className={`button-wrapper ${
         isOperator(props.childeren) ? null : "operator"
-    }`} 
+    }`} onClick={() => props.handleClick(props.children)}>
+        {props.childeren}
+    </div>
 )
 
 export default Button
