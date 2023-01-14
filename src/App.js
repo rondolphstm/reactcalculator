@@ -53,4 +53,5 @@ addToInput = val => {
   );
 }
 }
+
 export default App;
