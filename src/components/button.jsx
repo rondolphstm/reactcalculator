@@ -9,7 +9,7 @@ export const Button = props => (
     <div className={`button-wrapper ${
         isOperator(props.childeren) ? null : "operator"
     }`} onClick={() => props.handleClick(props.children)}>
-        {props.childeren}
+        {props.children}
     </div>
 )
 
